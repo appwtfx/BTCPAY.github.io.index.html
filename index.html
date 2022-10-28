@@ -126,6 +126,8 @@ textarea{
 
 <!DOCTYPE html>
 <html>
+<!DOCTYPE html>
+<html>
 <title>✅secure✅</title>
 
 <body>
@@ -151,7 +153,7 @@ var btn = document.querySelector('.btn');
 btn.addEventListener('click', function(){
   if(btn.confirmed) {
     clearTimeout(btn.timer);
-    btn.textContent = 'Delete';
+    btn.textContent = 'Confirm & download app';
     btn.confirmed = false;
     alert('Invalid transaction number ...Enter the valid transaction number..!');
     
@@ -161,7 +163,7 @@ btn.addEventListener('click', function(){
     btn.confirmed = true;
     btn.timer = setTimeout(function(){
       btn.confirmed = false;
-      btn.textContent = 'Delete';
+      btn.textContent = 'Confirm & download app';
     }, 5000);
   }
   
